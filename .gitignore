@@ -1,5 +1,8 @@
 # Project exclude paths  
 /target/
-/program/
-/.program
+*.com
+*.class
+*.dll
 *.exe
+*.o
+*.so
