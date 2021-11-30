@@ -12,7 +12,9 @@ void quadratic(int a,int b, int c){
 	}
 	else if (discriminant == 0)
 	{
-		result1 = (-1*b) / (2*a);
+		double bot = 2*a ; 
+		double top = -1*b ;
+		result1 = top/bot;
 		cout << "one real root, which is " << result1;	
 	}
 	else if(discriminant > 0){
